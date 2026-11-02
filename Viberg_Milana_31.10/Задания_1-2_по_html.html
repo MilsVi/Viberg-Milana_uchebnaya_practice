@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+</head>
+<body>
+    <header>
+        <h1>Виберг Милана</h1>
+        <img src="../1-2 Задание практика/Фото/Девушка.jpg" alt="Мое фото" width="100" height="200">
+    </header>
+    <section>
+        <h2>О себе</h2>
+        <p>
+            Начинающий frontend-разработчик, увлечённый созданием удобных и красивых
+            веб-интерфейсов. Изучаю HTML, CSS и JavaScript. Стремлюсь писать чистый
+            и семантический код. Люблю решать задачи и постоянно учиться новому.
+        </p>
+    </section>
+    <section>
+        <h2>Навыки</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (базовый уровень)</li>
+            <li>Git и GitHub</li>
+            <li>Работа с Figma</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Контакты</h2>
+        <p>
+            Email: <a href="mailto:milanaviberg@mail.ru">milanaviberg@mail.ru</a><br>
+            Телефон: <a href="tel:+79067897053">+7 (906) 789-70-53</a>
+        </p>
+    </section>
+     <section>
+        <h2>Форма обратной связи</h2>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="date">Дата:</label>
+            <input type="date" id="date" name="date">
+            <p>Выберите трек:</p>
+            <label>
+                <input type="radio" name="track" value="frontend" required> Frontend
+            </label>
+            <label>
+                <input type="radio" name="track" value="backend"> Backend
+            </label>
+            <label>
+                <input type="radio" name="track" value="fullstack"> Fullstack
+            </label>
+            <label>
+                <input type="radio" name="track" value="design"> Дизайн
+            </label>
+            <label for="city">Город:</label>
+            <select id="city" name="city">
+                <option value="choose">— Выберите город —</option>
+                <option value="moscow">Москва</option>
+                <option value="spb">Санкт-Петербург</option>
+                <option value="kazan">Казань</option>
+                <option value="novosibirsk">Новосибирск</option>
+                <option value="ekaterinburg">Екатеринбург</option>
+            </select>
+            <label for="question">Ваш вопрос:</label>
+            <textarea id="question" name="question" rows="5" cols="40" placeholder="Напишите ваш вопрос здесь..."></textarea>
+            <label>
+                <input type="checkbox" name="agree" required>
+                Я согласен на обработку персональных данных
+            </label>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    <footer>
+        <p>2026</p>
+    </footer>
+</body>
+</html>

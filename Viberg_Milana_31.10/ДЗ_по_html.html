@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой любимый сериал - История девятихвостого лиса</title>
+</head>
+<body>
+    <header>
+        <h1>История девятихвостого лиса</h1>
+        <img src="../1-2 задание и дз по html практика/Фото/сериал постер.jpg" alt="постер сериала" width="150" height="100">
+    </header>
+    <section>
+        <h2>О сериале</h2>
+        <p>«История девятихвостого лиса» — корейская фэнтези‑дорама 2020 года о кумихо Ли Ёне, который защищает мир людей от сверхъестественных угроз.<br> Он веками ищет реинкарнацию своей возлюбленной, и его путь переплетается с судьбой продюсера Нам Джи‑а, связанной с его прошлым. В сюжете сплетаются романтика, мистические расследования и мотивы корейской мифологии.</p>
+    </section>
+    <section>
+        <h2>Почему мне нравится этот сериал</h2>
+        <ul>
+            <li>Необычное сочетание корейской мифологии и современного сеттинга</li>
+            <li>Харизматичный главный герой в исполнении Ли Дон Ука</li>
+            <li>Захватывающий сюжет с неожиданными поворотами</li>
+            <li>Красивая операторская работа и визуальные эффекты</li>
+            <li>Трогательная история любви, пронесённая сквозь века</li>
+            <li>Отличный саундтрек, передающий атмосферу мистики</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Посмотреть:</h2>
+        <ul>
+            <li>
+                 <a href="https://www.kinopoisk.ru/series/1330171/?utm_referrer=yandex.ru&socialAlias=MjA5MjAyMDI3">Кинопоиск</a>
+            </li>
+            <li>
+                <a href="https://vkvideo.ru/playlist/-156580570_280">ВК видео</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Оцените сериал:</h2>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="rating">Оценка (от 1 до 10):</label><br>
+            <input type="number" id="rating" name="rating" min="1" max="10" value="0" required>
+            <label for="favorite-character">Любимый персонаж:</label><br>
+            <select id="favorite-character" name="favorite_character">
+                <option value="choose">— Выберите персонажа —</option>
+                <option value="lee-yeon">Ли Ён</option>
+                <option value="nam-ji-a">Нам Джи-А</option>
+                <option value="lee-ran">Ли Ран</option>
+                <option value="kim-sa-hee">Ким Са Хи</option>
+                <option value="hyun">Старец Хён</option>
+            </select>
+            <label>
+                <input type="checkbox" name="agree" required>
+                Я согласен с публикацией моего отзыва
+            </label>
+            <label>
+                <input type="checkbox" name="agree" required>
+                Я согласен на обработку персональных данных
+            </label>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    <footer>
+        <p>2026</p>
+    </footer>
+</body>
+</html>
