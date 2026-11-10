@@ -1,0 +1,10 @@
+let mainTitle = document.getElementById("main-title");
+console.log(mainTitle);
+let paragraphs = document.getElementsByClassName("description");
+console.log(paragraphs);
+let list = document.getElementsByTagName("li");
+console.log(list);
+let firstParagraph = document.querySelector(".description");
+console.log(firstParagraph);
+let allDescriptions = document.querySelectorAll(".description");
+console.log(allDescriptions);

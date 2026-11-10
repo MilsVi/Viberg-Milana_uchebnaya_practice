@@ -1,0 +1,12 @@
+.text {
+  color: black;
+}
+
+.active {
+  color: green;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
